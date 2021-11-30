@@ -1,0 +1,124 @@
+.login-box{
+  background-color: #FAFAFA;
+  border-radius: 10pt;
+  max-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20pt;
+  align-items: center;
+  padding-top: 5pt;
+}
+
+.login-box header{
+  font-weight: 600;
+  font-size: 36pt;
+  margin-bottom: 20pt;
+}
+
+.login-box div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.login-box form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-box input{
+  margin-bottom: 10pt;
+}
+
+.password{
+  width: 40%;
+}
+
+input[class*='login-submit']{
+  font-size: 24pt;
+  color: whitesmoke;
+  background-color: #1A73E8;
+  border: none;
+  border-radius: 6pt;
+  padding: 6pt;
+  padding-left: 25pt;
+  padding-right: 25pt;
+  width: 40%;
+  margin-left:30%;
+}
+
+input[class*='login-submit-disabled']{
+  background-color: darkgray;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.main-box{
+  width:30%;
+  margin-top: 60pt;
+  background-color: whitesmoke;
+  box-shadow:3px 3px 3px 3px rgb(189, 188, 188);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10pt;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.title{
+  font-weight: lighter;
+}
+ 
+.form-box{
+  padding: 50px;
+}
+ 
+.form-box div{
+  padding-top: 50px;
+}
+ 
+.form-box input{
+  border-radius: 3pt;
+  border-style: solid;
+  border-color: rgb(182, 182, 182);
+  margin: 15px;
+}
+ 
+ 
+ 
+.names-div{
+  display: flex;
+  flex-direction: row;
+}
+ 
+.email-div input{
+  width: 360px;
+}
+ 
+.button-div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+input[class*='submit-button']{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(78, 78, 204);
+  color: whitesmoke;
+  font-size: x-large;
+  transition: all 0.3s;
+}
+input[class*='submit-button-disabled']{
+  background-color: grey;
+}
+ 
+.submit-button:hover{
+  background-color: rgb(107, 107, 206);
+}
